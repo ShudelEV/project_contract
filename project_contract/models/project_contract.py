@@ -8,6 +8,7 @@ _logger = logging.getLogger(__name__)
 
 
 class ProjectContract(models.Model):
+
     _name = 'project.contract'
     _description = 'Project Contract'
     _inherit = ['mail.thread']
@@ -30,8 +31,7 @@ class ProjectContract(models.Model):
     #  !разобраться с документами
     # attachment_ids = fields.One2many('ir.attachment', 'res_id', domain=lambda self: [('res_model', '=', self._name)],
     #                                   auto_join=True, string='Attachments')
-    # !автозаполнение из проекта
-    partner_id = fields.Many2one('project_id.partner_id', string='Customer', required=True)
+    partner_id = fields.Many2one(related='project_id.partner_id', string='Customer', required=True)
     contractor_id = fields.Many2one('res.partner', string='Сontractor',
                                     default=lambda self: self.env.user.company_id.id, required=True)
     currency_id = fields.Many2one('res.currency', string='Currency', required=True,
@@ -77,6 +77,7 @@ class ProjectContract(models.Model):
 
 
 class ProjectProjectInherit(models.Model):
+
     _inherit = 'project.project'
 
     contract_ids = fields.One2many('project.contract', 'project_id', string='Contracts', ondelete='restrict')

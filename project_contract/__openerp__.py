@@ -15,7 +15,8 @@ Project Contract
         'mail',
     ],
     'data': [
-        'project_contract_view.xml',
+        'security/ir.model.access.csv',
+        'views/project_contract_view.xml',
     ],
     'qweb': [
     ],

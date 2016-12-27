@@ -1,0 +1,5 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_project_contract_manager,project.contract.manager,project_contract.model_project_contract,"project.group_project_manager",True,True,True,True
+access_project_contract_user,project.contract.user,project_contract.model_project_contract,"project.group_project_user",True,False,False,False
+access_project_contract_payment_manager,project.contract.payment.manager,project_contract.model_project_contract_payment,"project.group_project_manager",True,True,True,True
+access_project_contract_payment_user,project.contract.payment.user,project_contract.model_project_contract_payment,"project.group_project_user",True,False,False,False

@@ -1,0 +1,367 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * base
+#
+# Translators:
+# Alex Puchkov <ap@alteco.co>, 2016
+# Andrey Samorukov <andrey.samorukov@me.com>, 2016
+# Artur Komishenko <Archi1792@gmail.com>, 2016
+# Denis Trepalin <zekarious@gmail.com>, 2015
+# Evgeny <transingularity@gmail.com>, 2016
+# Gennady Marchenko <gennadym@gmail.com>, 2016
+# Max Belyanin <maxbelyanin@gmail.com>, 2015
+# Max Belyanin <maxbelyanin@gmail.com>, 2015
+# Sergey Vilizhanin <sv@grimmette.ru>, 2016
+# Svetlana Pogrebniak <sp@aifil.ru>, 2016
+# Sergey Vilizhanin <sv@grimmette.ru>, 2015-2016
+# Viktor Pogrebniak <vp@aifil.ru>, 2016
+# Viktor Pogrebniak <vp@aifil.ru>, 2016
+# Владимир Куряев <istercul@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-27 06:34+0000\n"
+"PO-Revision-Date: 2016-12-27 09:53+0300\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Russian (http://www.transifex.com/odoo/odoo-9/language/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid ""
+"(Un)archiving a contract automatically (un)archives its tasks and issues. Do "
+"you want to proceed?"
+msgstr ""
+"(Раз)архивирование проекта автоматически (раз)архивирует задачи и проблемы. "
+"Вы хотите продолжить?"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid "12345..."
+msgstr ""
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_needaction
+msgid "Action Needed"
+msgstr "Требуется реакция"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_active
+msgid "Active"
+msgstr "Активен"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid "Acts"
+msgstr "Акты"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_amount
+msgid "Amount"
+msgstr "Количество"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Archived"
+msgstr "Помещено в архив"
+
+#. module: project_contract
+#: selection:project.contract,state:0
+msgid "Canceled"
+msgstr "Отменен"
+
+#. module: project_contract
+#: selection:project.contract,state:0
+msgid "Closed"
+msgstr "Закрыт"
+
+#. module: project_contract
+#: model:ir.actions.act_window,name:project_contract.project_contract_tree_act
+#: model:ir.ui.menu,name:project_contract.menu_contract_management
+#: model:ir.ui.menu,name:project_contract.menu_project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid "Contract"
+msgstr "Договор"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_contract_id
+msgid "Contract id"
+msgstr ""
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_project_contract_ids
+#: model:ir.ui.view,arch_db:project_contract.project_form_inherit
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Contracts"
+msgstr "Договоры"
+
+#. module: project_contract
+#: model:ir.actions.act_window,help:project_contract.project_contract_tree_act
+msgid "Create a new Contract."
+msgstr "Нажмите, чтобы создать новый договор."
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_create_uid
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_create_uid
+msgid "Created by"
+msgstr "Создано"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_create_date
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_create_date
+msgid "Created on"
+msgstr "Создан"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_partner_id
+msgid "Customer"
+msgstr "Заказчик"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_date
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_date
+msgid "Date from"
+msgstr "Дата от"
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Дата последнего сообщения"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_deadline
+#: model:ir.ui.view,arch_db:project_contract.project_contract_tree_view
+msgid "Deadline"
+msgstr "Срок до"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_display_name
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_display_name
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#. module: project_contract
+#: selection:project.contract,state:0
+msgid "Draft"
+msgstr "Черновик"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Draft State"
+msgstr "Статус Черновик"
+
+#. module: project_contract
+#: selection:project.contract,type:0
+msgid "Expense"
+msgstr "Затраты"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid ""
+"Follow this contract to automatically track the events associated to tasks "
+"and issues of this project."
+msgstr ""
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_follower_ids
+msgid "Followers"
+msgstr "Подписчики"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Подписчики (Каналы)"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Подписчики (Партнеры)"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_tree_view
+msgid "From"
+msgstr "От"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Group By"
+msgstr "Группировать по"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_id
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Если отмечено, новые сообщения требуют вашего внимания."
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Если отмечено, новые сообщения требуют Вашего внимания."
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid "Invoices"
+msgstr "Накладные"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_is_follower
+msgid "Is Follower"
+msgstr "Подписчик"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_last_post
+msgid "Last Message Date"
+msgstr "Последнее сообщение по дате"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract___last_update
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment___last_update
+msgid "Last Modified on"
+msgstr "Последнее изменение"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_write_uid
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_write_uid
+msgid "Last Updated by"
+msgstr "Последний раз обновлено"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_write_date
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_write_date
+msgid "Last Updated on"
+msgstr "Последний раз обновлено"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_ids
+msgid "Messages"
+msgstr "Сообщения"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_note
+msgid "Note"
+msgstr "Примечание"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Количество действий"
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_code
+msgid "Number of Contract"
+msgstr "Количество договоров"
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Количество сообщений, требующих реакции"
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Количество непрочтённых сообщений"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_payment_line
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid "Payments"
+msgstr "Платежи"
+
+#. module: project_contract
+#: model:ir.model,name:project_contract.model_project_project
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_project_id
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Project"
+msgstr "Проект"
+
+#. module: project_contract
+#: model:ir.model,name:project_contract.model_project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+#: model:ir.ui.view,arch_db:project_contract.project_contract_tree_view
+msgid "Project Contract"
+msgstr ""
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.project_form_inherit
+msgid "Project Contract Tree"
+msgstr ""
+
+#. module: project_contract
+#: selection:project.contract,type:0
+msgid "Revenue"
+msgstr "Выручка"
+
+#. module: project_contract
+#: selection:project.contract,state:0
+msgid "Signed"
+msgstr "Подписан"
+
+#. module: project_contract
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Signed State"
+msgstr "Статус Подписан"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_state
+msgid "State"
+msgstr "Статус"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_subject
+#: model:ir.ui.view,arch_db:project_contract.project_contract_form_view
+msgid "Subject"
+msgstr "Предмет договора"
+
+#. module: project_contract
+#: model:ir.model.fields,help:project_contract.field_project_contract_deadline
+msgid "Term under the contract"
+msgstr "Срок по договору"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_total_amount
+msgid "Total Payment"
+msgstr "Всего оплачено"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_type
+#: model:ir.ui.view,arch_db:project_contract.view_contract_search_form
+msgid "Type"
+msgstr "Тип"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_unread
+msgid "Unread Messages"
+msgstr "Непрочитанные"
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Счетчик непрочтённых сообщений"
+
+#. module: project_contract
+#: model:ir.model,name:project_contract.model_project_contract_payment
+msgid "project.contract.payment"
+msgstr ""
+
+#. module: project_contract
+#: model:ir.model.fields,field_description:project_contract.field_project_contract_contractor_id
+msgid "Сontractor"
+msgstr "Подрядчик"
